@@ -1,0 +1,98 @@
+/* ======== ESTILO GERAL ======== */
+body {
+    background: linear-gradient(135deg, #0a0f1d, #111827);
+    color: #e5e5e5;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ======== TÍTULOS ======== */
+h1, h2, h3 {
+    color: #00d9ff;
+    text-shadow: 0 0 10px #00d9ff;
+    font-weight: 700;
+}
+
+/* ======== CABEÇALHO ======== */
+header img {
+    box-shadow: 0 0 20px #00d9ff;
+    border: 3px solid #00d9ff55;
+}
+
+/* ======== BADGES ======== */
+.badge {
+    background: #1f2937 !important;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 0 0 10px #00d9ff66;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.badge:hover {
+    box-shadow: 0 0 15px #00d9ff;
+    transform: scale(1.08);
+}
+
+/* ======== CARROSSEL ======== */
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #00d9ff88;
+}
+
+/* Setas do carrossel */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: drop-shadow(0 0 6px #00d9ff);
+}
+
+/* ======== CARDS ======== */
+.card {
+    background: #1a1f2e;
+    border: 1px solid #00d9ff55;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #00d9ff33;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 25px #00d9ff88;
+}
+
+/* Texto do card */
+.card-title {
+    color: #00d9ff;
+    text-shadow: 0 0 8px #00d9ff99;
+    font-weight: bold;
+}
+
+/* ======== BOTÕES ======== */
+.btn-primary {
+    background: #00d9ff;
+    border-color: #00d9ff;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #00d9ff55;
+}
+
+.btn-primary:hover {
+    background: #008fb3;
+    border-color: #008fb3;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00d9ff;
+}
+
+/* ======== RODAPÉ (caso queira usar depois) ======== */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
+    border-top: 1px solid #00d9ff33;
+}
